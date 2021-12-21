@@ -130,10 +130,31 @@ ul{
     height: 60px;
     position: absolute;
     top: 30px;
+    /* top: 60px; */
+    /* left: 0; */
     z-index: 999;
+    transition: all linear 0.4s;
+    width: 100%;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.menu-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    background-image: linear-gradient(to right, #0066e7, #00bbff);
+    width: 100%;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
 }
 .menu-bg .menu{
-    height: 60px;
+    /* height: 60px; */  
 }
 .menu-bg .menu .logo{
     height: 60px;
